@@ -7,7 +7,7 @@ HelloWorld的创建
 
 验证Activity的周期
 
-public class MainActivity extends AppCompatActivity {
+```public class MainActivity extends AppCompatActivity {
     final String TAG="--MainActivity--";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG,"--onRestart--");
     }
 }
+```
 
 
 启动Activity生命周期时
